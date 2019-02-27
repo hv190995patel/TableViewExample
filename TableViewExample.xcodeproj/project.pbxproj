@@ -19,6 +19,7 @@
 		982B8F972226CE7A00241BB6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8F962226CE7A00241BB6 /* InterfaceController.swift */; };
 		982B8F992226CE7A00241BB6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8F982226CE7A00241BB6 /* ExtensionDelegate.swift */; };
 		982B8F9B2226CE7A00241BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982B8F9A2226CE7A00241BB6 /* Assets.xcassets */; };
+		982B8FAC2226D7D300241BB6 /* CountryRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982B8FAA2226D7CD00241BB6 /* CountryRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		982B8F982226CE7A00241BB6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		982B8F9A2226CE7A00241BB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		982B8F9C2226CE7B00241BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982B8FAA2226D7CD00241BB6 /* CountryRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryRowController.swift; path = "TableViewExample WatchKit Extension/CountryRowController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				982B8F962226CE7A00241BB6 /* InterfaceController.swift */,
+				982B8FAA2226D7CD00241BB6 /* CountryRowController.swift */,
 				982B8F982226CE7A00241BB6 /* ExtensionDelegate.swift */,
 				982B8F9A2226CE7A00241BB6 /* Assets.xcassets */,
 				982B8F9C2226CE7B00241BB6 /* Info.plist */,
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982B8FAC2226D7D300241BB6 /* CountryRowController.swift in Sources */,
 				982B8F992226CE7A00241BB6 /* ExtensionDelegate.swift in Sources */,
 				982B8F972226CE7A00241BB6 /* InterfaceController.swift in Sources */,
 			);
